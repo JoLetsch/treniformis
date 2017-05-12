@@ -11,7 +11,8 @@ from setuptools import find_packages
 from setuptools import setup
 import sys
 
-print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", sys.argv
+import pdb
+pdb.set_trace()
 
 def _parse_dunder(line):
 
