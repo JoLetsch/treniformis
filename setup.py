@@ -10,9 +10,13 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 import sys
+import os
 import traceback
 
-print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", sys.argv
+print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+print "argv: ", sys.argv
+print "cwd: ", os.getcwd()
+print "environ: ", os.environ
 traceback.print_stack()
 
 def _parse_dunder(line):
